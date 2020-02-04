@@ -1,7 +1,7 @@
 import Component from '@glimmer/component';
-import { inject as service } from '@amber/service';
+import { inject as service } from '@ember/service';
 
-import {action} from '@amber/action';
+import {action} from '@ember/action';
 
 export default class CartContentsComponent extends Component {
     //will load  the service  defined  in : app/services/shoppingcart.js

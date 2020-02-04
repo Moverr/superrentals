@@ -2,7 +2,7 @@
   {{#each this.cart.items as |item|}}
     <li>
       {{item.name}}
-      <button name="DD" {{on "click" (fn this.remove item)}}>Remove</button>
+      <button type="button" {{on "click" (fn this.remove item)}}>Remove</button>
       {{!-- <button {{on "click" (fn this.remove item)}}>Remove</button>
     --}}
     </li>
